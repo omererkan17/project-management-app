@@ -1,0 +1,94 @@
+
+.issue-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 280px;
+    padding-left: 5%;
+    background-color: white;
+    width: 70%;
+  }
+  
+  .issue-summary {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .issue-type-icon{
+    width: 30px;
+    display: inline;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  h1{
+    display: inline;
+  }
+  
+.prio-label{
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* #high-prio, #medium-prio, #low-prio{
+  padding-bottom: -20px;
+} */
+
+  .issue-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .issue-field {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .issue-field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .issue-value {
+    margin-top: 0;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .summary-task {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 0.3px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 510px;
+    box-sizing: border-box;
+  }
+  
+  .summary-task:focus {
+    outline: none;
+    border-color: #444647;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+  }
+
+  #weather{
+    text-align: center;
+    background-color: #ededed;
+    margin-top: 250px;
+    margin-bottom: 0%;
+   
+    padding-bottom: 6%;
+  }
+
+  #icon{
+    text-align: center;
+    background-color: #cfbd52;
+    border-radius: 8%;
+  }
